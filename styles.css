@@ -262,7 +262,7 @@ footer {
 .section-especiais .container .animacao .textos-dinamicos {
     margin: auto;
     margin-left: 15px;
-    width: 70%;  /* Garante que ocupe toda a largura disponível */
+    width: 100%;  /* Garante que ocupe toda a largura disponível */
     max-width: 1200px; /* Limita o tamanho máximo em telas grandes */
     height: auto;
     display: flex;
@@ -284,7 +284,7 @@ footer {
     content: '';
     position: absolute;
     left: 0;
-    width: 70%;
+    width: 100%;
     height: 100%;
     background-color: var(--colorBlack);
     border-left: 2px solid var(--colorPurple);
@@ -302,7 +302,7 @@ footer {
     }
     .section-especiais .container .animacao .textos-dinamicos {
         margin-left: 25px;
-        width: 70%;  /* Aumenta a largura para ocupar a tela de forma adequada */
+        width: 100%;  /* Aumenta a largura para ocupar a tela de forma adequada */
     }
 
     .section-especiais .container .animacao .textos-dinamicos li {
