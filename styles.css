@@ -426,9 +426,9 @@ footer {
 
 .carousel-images img {
     width: 80%; /* As imagens ocupam 100% da largura do carrossel */
-    height: auto; /* A altura se ajusta automaticamente */
+    height: 40%; /* A altura se ajusta automaticamente */
     max-height: 60%; /* A altura se ajusta automaticamente */
-    min-height: 40%; /* A altura se ajusta automaticamente */
+    min-height: 20%; /* A altura se ajusta automaticamente */
     display: block; /* Remove espaços indesejados abaixo das imagens */
     flex-shrink: 0; /* Impede que as imagens encolham */
 }
