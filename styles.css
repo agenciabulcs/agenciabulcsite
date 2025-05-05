@@ -199,15 +199,6 @@ h2 {
     display: flex;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form label {
-    margin: 10px 0 5px;
-}
-
 
 footer {
     background: #333;
@@ -411,7 +402,7 @@ footer {
 .carousel {
     position: relative;
     width: 100%; /* Garante que o carrossel ocupe toda a largura disponível */
-    heigth: 40%;
+    heigth: 80%;
     margin: 0; /* Remove margens extras */
     overflow: hidden; /* Garante que a imagem não ultrapasse os limites da div */
 }
