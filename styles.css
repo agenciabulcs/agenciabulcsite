@@ -148,7 +148,7 @@ body::before {
 
 
 .container {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     padding: 20px 0;
     color: var(--colorWhite);
@@ -156,6 +156,7 @@ body::before {
 
 .section-especiais .container-especial{
     width: 80%;
+    heigth: 50%;
     margin: 0 auto;
     padding: 10px 0;
     color: var(--colorWhite);
@@ -182,7 +183,7 @@ body::before {
 .servicos img {
     width: 100%; /* A imagem vai ocupar 100% da largura do contêiner */
     height: auto; /* Mantém a proporção da imagem */
-    max-height: 500px; /* Define um limite de altura para a imagem, você pode ajustar conforme necessário */
+    max-height: 300px; /* Define um limite de altura para a imagem, você pode ajustar conforme necessário */
     object-fit: contain; /* Ajusta a imagem para caber sem cortar */
     object-position: center; /* Alinha a imagem no centro do contêiner */
 }
