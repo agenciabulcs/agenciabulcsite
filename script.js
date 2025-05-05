@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let index = 0;
 
     function updateCarousel() {
-        const offset = -index * 80; // Cada imagem ocupa 100% da largura do contêiner
+        const offset = -index * 80; // Cada imagem ocupa 80% da largura do contêiner
         carouselImages.style.transform = `translateX(${offset}%)`;
     }
 
