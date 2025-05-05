@@ -182,7 +182,7 @@ body::before {
 
 .servicos img {
     width: 100%; /* A imagem vai ocupar 100% da largura do contêiner */
-    height: auto; /* Mantém a proporção da imagem */
+    height: 70%; /* Mantém a proporção da imagem */
     max-height: 300px; /* Define um limite de altura para a imagem, você pode ajustar conforme necessário */
     object-fit: contain; /* Ajusta a imagem para caber sem cortar */
     object-position: center; /* Alinha a imagem no centro do contêiner */
@@ -425,8 +425,10 @@ footer {
 }
 
 .carousel-images img {
-    width: 100%; /* As imagens ocupam 100% da largura do carrossel */
+    width: 80%; /* As imagens ocupam 100% da largura do carrossel */
     height: auto; /* A altura se ajusta automaticamente */
+    max-height: 60%; /* A altura se ajusta automaticamente */
+    min-height: 40%; /* A altura se ajusta automaticamente */
     display: block; /* Remove espaços indesejados abaixo das imagens */
     flex-shrink: 0; /* Impede que as imagens encolham */
 }
